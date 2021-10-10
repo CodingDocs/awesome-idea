@@ -10,10 +10,10 @@
 
 **使用方法很简单！选中你要翻译的单词或者句子，使用快捷键 `command+ctrl+u(mac)` / `shift+ctrl+y(win/linux)`** （如果你忘记了快捷的话，鼠标右键操作即可！）
 
-![](/Users/guide/Documents/GitHub/awesome-idea-tips/idea-plugins/pictures/translation/translation1.jpg)
+![](./pictures/translation/translation1.jpg)
 
 **如果需要快速打开翻译框，使用快捷键`command+ctrl+i(mac)`/`ctrl + shift + o(win/linux)`**
 
-![](/Users/guide/Documents/GitHub/awesome-idea-tips/idea-plugins/pictures/translation/translation2.png)
+![](./pictures/translation/translation2.png)
 
 如果你需要将某个重要的单词添加到生词本的话，只需要点击单词旁边的收藏按钮即可！
