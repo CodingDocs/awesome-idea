@@ -61,7 +61,7 @@
 6. **GitToolBox** :Git工具箱
 7. **OK,​ Gradle!** ：搜索Java库用于Gradle项目
 8. **Java Stream Debugger** : Java8 Stream调试器
-9. **EasyCode ** : Easycode 可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。更多内容可以查看这篇文章：[《懒人 IDEA 插件插件:EasyCode 一键帮你生成所需代码~》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486205&idx=1&sn=0ff2f87f0d82a1bd9c0c44328ef69435&chksm=cea24536f9d5cc20c6cc7669f0d4167d747fe8b8c05a64546c0162d694aa96044a2862e24b57&token=1862674725&lang=zh_CN#rd)
+9. **EasyCode** : Easycode 可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。更多内容可以查看这篇文章：[《懒人 IDEA 插件插件:EasyCode 一键帮你生成所需代码~》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486205&idx=1&sn=0ff2f87f0d82a1bd9c0c44328ef69435&chksm=cea24536f9d5cc20c6cc7669f0d4167d747fe8b8c05a64546c0162d694aa96044a2862e24b57&token=1862674725&lang=zh_CN#rd)
 10. **JFormDesigner** ：Swing GUI 在线编辑器。
 11. **VisualVM Launcher** ： Java性能分析神器。
 12. ......
