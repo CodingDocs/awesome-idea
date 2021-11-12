@@ -1,67 +1,81 @@
-分享一下自己使用 IDEA 的一些经验，希望对大家有帮助！
+# IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧
 
-- Github 地址：https://github.com/CodingDocs/awesome-idea-tutorial
-- 码云地址：https://gitee.com/SnailClimb/awesome-idea-tutorial （Github 无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
+在线阅读地址：https://javaguide.cn/idea-tutorial/
 
-## 使用指南
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/image-20211112203054662.png)
 
-- [IDEA源码阅读技巧](IDEA源码阅读技巧.md)
-- [IDEA重构小技巧](./idea-refractor/使用IDEA进行重构.md)
-- [IDEA插件开发入门](./IDEA插件开发入门.md)
+大学的时候，我一直在用 Eclipse ，说实话用习惯了，占内存也比较小，最主要的是还免费使用。我当时一直没有换 IntelliJ IDEA（后面会简称为 IDEA） 的很大一部分原因是切换到 IDEA 需要很长时间去适应，有点跳出舒适区的感觉。
 
-##  必备插件
+不过，说实话，我现在用 IDEA 这么久了，还是感觉很香的！俗话说：**工欲善其事，必先利其器 ，就我个人而言 IDEA 是最适合 Java 开发者的 IDE 。** 如果你没有用过的 IDEA 就随便评判两者的话，我建议你不妨挑出自己的舒适区，尝试着去使用一段时间。**如果你觉得 Eclipse 更适合你的话，我觉得也没忙病，萝卜白菜各有所爱，我们也要尊重别人的想法 💡。**
 
-安利一些好用的 IDEA 插件。
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/2a2423cd-68bc-4c39-ae8f-1ba9915c5404.png)
 
-## 效率
+IDEA 是 JetBrains 在 2001 年发布的，主要用来支持 Java 编程，不过也支持 Kotlin（由 JetBrains 开发），Groovy，Clojure，Scala 等编程语言。
 
-- [Key Promoter X:快捷键提示](./idea-plugins/快捷键.md)
-- [Presentation Assistant:快捷键展示](./idea-plugins/快捷键.md)
-- [Translation：翻译](./idea-plugins/Translation.md)
-- [Save Actions:优化保存操作](./idea-plugins/SaveActions.md)
+JetBrains 真的是很厉害的一家公司，这家公司推出的很多 IDE 基本都是工程师编程首选比如 PyCharm、WebStorm 等等。这家公司做出来的东西为什么好？我觉得主要就一个词总结：**智能** （ IntelliJ->intelligent)
 
-### 开发
+![Intelligent Agents Lab](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/cover.png)
 
-- [CamelCase：多种命名格式之间切换](./idea-plugins/CamelCase.md)
-- [Git Commit Template:使用模板创建commit信息](./idea-plugins/GitCommitTemplate.md)
-- [Maven Helper:分析Maven项目的相关依赖](./idea-plugins/MavenHelper.md)
-- [GsonFormat：JSON转类对象](./idea-plugins/GsonFormat.md)
+下面 Guide 会简单对比一下它们，方便大家更好地去了解这个 IDE。
 
-### 代码优化
+### 易用程度
 
-- [Lombok:帮你简化代码](./idea-plugins/帮助你写好代码的IDEA插件.md)
-- [Codota：代码智能提示](./idea-plugins/帮助你写好代码的IDEA插件.md)
-- [Alibaba Java Code Guidelines：阿里巴巴 Java 代码规范](./idea-plugins/帮助你写好代码的IDEA插件.md)
-- [CheckStyle: Java代码格式规范](./idea-plugins/帮助你写好代码的IDEA插件.md)
-- [SonarLint:帮你优化代码](./idea-plugins/帮助你写好代码的IDEA插件.md)
+#### IDEA 提供了更多人性化的功能
 
-### 界面美化
+个人感觉 IDEA 更加易用，因为 IDEA 内置了太多人性的话的功能比如对 Git 功能的支持、代码检查等等。
 
-- [IDEA 主题推荐](./idea-plugins/IDEA主题推荐.md)
-- [Background Image Plus:背景图片](./idea-plugins/界面美化.md)
-- [Power Mode II : 代码特效](./idea-plugins/界面美化.md)
-- [Nyan Progress Bar : 进度条美化](./idea-plugins/界面美化.md)
-- [Grep Console:控制台输出处理](./idea-plugins/界面美化.md)
-- [Rainbow Brackets : 彩虹括号](./idea-plugins/界面美化.md)
+如下图示，这个是 IDEA 自带的版本控制功能，非常好用，清晰地展示了提交记录，便于查阅别人的提交以及项目组进行 Code Review。
 
-### 源码阅读
+![版本控制](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/0538df6c-4043-4894-8b75-9bee97fec64a.png)
 
-- [jclasslib：一款快速查看Java字节码的神器!力荐！](./idea-plugins/一款IDEA字节码查看神器.md)
-- [SequenceDiagram：一键生成方法的时序图](./idea-plugins/SequenceDiagram.md)
-- [Statistic：项目代码统计](./idea-plugins/项目代码统计.md)
-- [CodeGlance:代码微型地图](./idea-plugins/CodeGlance.md)
+#### IDEA 智能上下文提示
 
-### 其他
+另外，**IDEA 比 Eclipse 更好的一点是它的智能代码提示，这个确实好用，而且还是根据你当前上下文来提示提示的（基于快速索引技术）。**
 
-1. **leetcode editor** :提供在线 Leetcode 刷题功能，比较方便我们刷题，不过我试用之后发现有一些小 bug，个人感觉还是直接在网站找题目刷来的痛快一些。
-2. **​A Search with Github** ：直接通过 Github搜索相关代码。
-3. **stackoverflow** : 选中相关内容后单击右键即可快速跳转到 stackoverflow 。
-4. **CodeStream** ：让code review变得更加容易。
-5. **Code screenshots** ：代码片段保存为图片。
-6. **GitToolBox** :Git工具箱
-7. **OK,​ Gradle!** ：搜索Java库用于Gradle项目
-8. **Java Stream Debugger** : Java8 Stream调试器
-9. **EasyCode** : Easycode 可以直接对数据的表生成entity、controller、service、dao、mapper无需任何编码，简单而强大。更多内容可以查看这篇文章：[《懒人 IDEA 插件插件:EasyCode 一键帮你生成所需代码~》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486205&idx=1&sn=0ff2f87f0d82a1bd9c0c44328ef69435&chksm=cea24536f9d5cc20c6cc7669f0d4167d747fe8b8c05a64546c0162d694aa96044a2862e24b57&token=1862674725&lang=zh_CN#rd)
-10. **JFormDesigner** ：Swing GUI 在线编辑器。
-11. **VisualVM Launcher** ： Java性能分析神器。
-12. ......
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/8173c155-2b90-41c0-9f2d-76270262f06d.png)
+
+#### 使用 IDEA 更加智能的进行重构
+
+IDEA 对重构的支持更加友好以及安全，你可以更加方便地去进行重构比如使用快捷键提取方法、抽取变量等等。
+
+下图对应地地址在这里：[https://www.jetbrains.com/help/idea/refactoring-source-code.html](https://www.jetbrains.com/help/idea/refactoring-source-code.html) 。
+
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/bf928840-043e-4607-a0fe-f57133458fa0.png)
+
+### 是否免费
+
+IDEA 社区版和 Eclipse IDE 均可免费下载和使用，不过 IDEA 还提供了一个功能更多地称为 Ultimate Edition（最终版本）的版本，不过作为 Java 初学者来说 IntelliJ IDEA 社区版就完全够用了。
+
+IDEA 的付费商业版本和免费版本的主要区别如下图所示，可以看出商业版的 IDEA 提供了更多功能的支持比如帮你找到你的项目中找到重复的代码块、提供数据库管理工具等等。
+
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/81e432ec-79d0-465c-811f-7bf706eab6b7.png)
+
+### 系统占用和内存管理
+
+不得不承认， IDEA 的系统占用更大，平稳运行至少需要 4g 以上的闲置内存。而 Eclipse 只需要 1g 的内存就组足够平稳运行了（项目过大的情况可能需要更多地运行内存支持）。
+
+另外，内存管理方面的话，Eclipse 做的也更好，之前我的电脑是 8 g 内存，不过，它足以流畅运行 Eclipse 。我现在的电脑是 16 g 内存，某些时候运行 IDEA 甚至会比较卡顿。
+
+**如果你的电脑真的没办法支持 IDEA 运行的话，我的建议是：“你要换电脑了”。**
+
+### 插件
+
+相比于 Eclipse 来说，IDEA 里面有太多太多宝藏插件了，真的非常棒 👍！
+
+> 最近我也在整理一些使用 IDEA 开发必备的插件，可能只需要 30s 就能收走你们的再看。下一篇文章我就会分享到，大家期待一波吧！
+
+很多插件都会优先支持 IDEA，毕竟 IDEA 的使用占比率还是比较大的。
+
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/1156a113-4370-4e8d-bd81-f95732a8cda6.png)
+
+### 受欢迎程度
+
+就现在来看，IDEA 的使用占比和受欢迎程度比 Eclipse 更高，并且大有远超之势。
+
+下图是国外的一个网站的一个统计报告！
+
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/b4639707-ad60-4aae-8ee8-35408939b413.png)
+
+最后再分享一下国外一个网站关于 “ Java 编程最好的 IDE 是哪一个？”的数据，可以看出 IDEA 还是略胜一筹的。
+
+![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2020-8/dfa0db1b-66c9-41bc-91ce-880094e6c9fc.png)
