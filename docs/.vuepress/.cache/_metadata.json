@@ -1,0 +1,151 @@
+{
+  "hash": "bde6c32b",
+  "browserHash": "c5bec6b3",
+  "optimized": {
+    "vue": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/vue.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/vue-router.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/nprogress.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "lodash.debounce": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/lodash_debounce.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/lodash.debounce/index.js",
+      "needsInterop": true
+    },
+    "@vueuse/core": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "@waline/client": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/@waline_client.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/@waline/client/dist/Waline.min.js",
+      "needsInterop": true
+    },
+    "flowchart.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/flowchart_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/flowchart.js/index.js",
+      "needsInterop": true
+    },
+    "mermaid": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/mermaid.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/mermaid/dist/mermaid.esm.min.mjs",
+      "needsInterop": false
+    },
+    "reveal.js/dist/reveal.esm.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/reveal_js_dist_reveal_esm_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/reveal.js/dist/reveal.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/highlight/highlight.esm.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/reveal_js_plugin_highlight_highlight_esm_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/reveal.js/plugin/highlight/highlight.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/math/math.esm.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/reveal_js_plugin_math_math_esm_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/reveal.js/plugin/math/math.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/search/search.esm.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/reveal_js_plugin_search_search_esm_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/reveal.js/plugin/search/search.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/notes/notes.esm.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/reveal_js_plugin_notes_notes_esm_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/reveal.js/plugin/notes/notes.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/zoom/zoom.esm.js": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/reveal_js_plugin_zoom_zoom_esm_js.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/reveal.js/plugin/zoom/zoom.esm.js",
+      "needsInterop": false
+    },
+    "photoswipe": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/photoswipe.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/photoswipe/dist/photoswipe.js",
+      "needsInterop": true
+    },
+    "photoswipe/dist/photoswipe-ui-default": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/photoswipe_dist_photoswipe-ui-default.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/photoswipe/dist/photoswipe-ui-default.js",
+      "needsInterop": true
+    },
+    "mitt": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/mitt.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/mitt/dist/mitt.mjs",
+      "needsInterop": false
+    },
+    "register-service-worker": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/register-service-worker.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/register-service-worker/index.js",
+      "needsInterop": false
+    },
+    "bcryptjs": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/bcryptjs.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/bcryptjs/dist/bcrypt.js",
+      "needsInterop": true
+    },
+    "body-scroll-lock": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/body-scroll-lock.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/body-scroll-lock/lib/bodyScrollLock.esm.js",
+      "needsInterop": false
+    },
+    "lodash.throttle": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/lodash_throttle.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/lodash.throttle/index.js",
+      "needsInterop": true
+    },
+    "@mr-hope/vuepress-shared/lib/client": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/@mr-hope_vuepress-shared_lib_client.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/@mr-hope/vuepress-shared/lib/client/index.js",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/dayjs.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/dayjs/dayjs.min.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/localizedFormat": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/dayjs_plugin_localizedFormat.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/dayjs/plugin/localizedFormat.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/objectSupport": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/dayjs_plugin_objectSupport.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/dayjs/plugin/objectSupport.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/timezone": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/dayjs_plugin_timezone.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/dayjs/plugin/timezone.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/utc": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/dayjs_plugin_utc.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/dayjs/plugin/utc.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "/Users/guide/Documents/GitHub/awesome-idea-tutorial/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}
