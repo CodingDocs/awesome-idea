@@ -1,36 +1,40 @@
-# IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧
+# IDEA 高效使用指南
 
-**项目地址** ：
+<div align="center">
+    <p>
+        <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
+            <img src="https://img-blog.csdnimg.cn/48dccc72371e45e5b7e64663760e4d76.png?" style="margin: 0 auto; width: 850px;" />
+        </a>
+    </p>
+    <p>
+        <a href="https://github.com/CodingDocs/awesome-idea-tutorial">Github</a> |
+        <a href="https://gitee.com/SnailClimb/awesome-idea-tutorial">Gitee</a>
+    </p>  
+</div>
+IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧
 
-- Github 地址：[https://github.com/CodingDocs/awesome-idea-tutorial](https://github.com/CodingDocs/awesome-idea-tutorial)
-- Gitee 地址：[https://gitee.com/SnailClimb/awesome-idea-tutorial](https://gitee.com/SnailClimb/awesome-idea-tutorial ) （Github 无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
+## 小技巧
 
-**常见问题** ：
+- [IDEA 高效使用指南](./docs/idea-plugins/idea-efficient-use-guide.md)
+- [IDEA 高效重构指南](./docs/idea-tips/idea-refractor-intro.md)
+- [IDEA 插件开发入门](./docs/idea-tips/idea-plug-in-development-intro.md)
+- [IDEA 源码阅读小技巧](./docs/idea-tips/idea-source-code-reading-skills.md)
 
-- [选择IDEA还是Eclipse？ - JavaGuide的回答 - 知乎](https://www.zhihu.com/question/305591091/answer/2259316801) 
-- [IntelliJ IDEA 中有什么让你相见恨晚的技巧？ - JavaGuide的回答 - 知乎](https://www.zhihu.com/question/300830746/answer/2255262082) 
-## IDEA 小技巧
+## 必备插件
 
-- [IDEA 重构入门](./docs/idea/idea-tips/idea-refractor-intro.md)
-- [IDEA 插件开发入门](./docs/idea/idea-tips/idea-plug-in-development-intro.md)
-- [IDEA源码阅读技巧](./docs/idea/idea-tips/idea-source-code-reading-skills.md)
-
-## IDEA 插件推荐
-
-- [IDEA 快捷键相关插件](./docs/idea/idea-plugins/shortcut-key.md)
-- [IDEA主题推荐](./docs/idea/idea-plugins/idea-themes.md)
-- [IDEA 代码优化插件推荐](./docs/idea/idea-plugins/improve-code.md)
-- [IDEA 界面美化插件推荐](./docs/idea/idea-plugins/interface-beautification.md)
-- [Camel Case：命名之间快速切换](./docs/idea/idea-plugins/camel-case.md)
-- [CodeGlance：代码微型地图](./docs/idea/idea-plugins/code-glance.md)
-- [Statistic：项目代码统计](./docs/idea/idea-plugins/code-statistic.md)
-- [Git Commit Template：提交代码格式规范](./docs/idea/idea-plugins/git-commit-template.md)
-- [GsonFormat：JSON转对象](./docs/idea/idea-plugins/gson-format.md)
-- [IDE Features Trainer：IDEA 交互式教程](./docs/idea/idea-plugins/idea-features-trainer.md)
-- [jclasslib ：一款IDEA字节码查看神器](./docs/idea/idea-plugins/jclasslib.md)
-- [Maven Helper：解决 Maven 依赖冲突问题](./docs/idea/idea-plugins/maven-helper.md)
-- [RestfulToolkit：RESTful Web 服务辅助开发工具](./docs/idea/idea-plugins/rest-devlop.md)
-- [Save Actions：优化文件保存](./docs/idea/idea-plugins/save-actions.md)
-- [SequenceDiagram：一键可以生成时序图](./docs/idea/idea-plugins/sequence-diagram.md)
-- [Translation：翻译](./docs/idea/idea-plugins/translation.md)
-
+- [IDEA 快捷键相关插件](./docs/idea-plugins/shortcut-key.md)
+- [IDEA 主题推荐](./docs/idea-plugins/idea-themes.md)
+- [IDEA 代码优化插件推荐](./docs/idea-plugins/improve-code.md)
+- [IDEA 界面美化插件推荐](./docs/idea-plugins/interface-beautification.md)
+- [Camel Case：命名之间快速切换](./docs/idea-plugins/camel-case.md)
+- [CodeGlance：代码微型地图](./docs/idea-plugins/code-glance.md)
+- [Statistic：项目代码统计](./docs/idea-plugins/code-statistic.md)
+- [Git Commit Template：提交代码格式规范](./docs/idea-plugins/git-commit-template.md)
+- [GsonFormat：JSON 转对象](./docs/idea-plugins/gson-format.md)
+- [IDE Features Trainer：IDEA 交互式教程](./docs/idea-plugins/idea-features-trainer.md)
+- [jclasslib ：一款 IDEA 字节码查看神器](./docs/idea-plugins/jclasslib.md)
+- [Maven Helper：解决 Maven 依赖冲突问题](./docs/idea-plugins/maven-helper.md)
+- [RestfulToolkit：RESTful Web 服务辅助开发工具](./docs/idea-plugins/rest-devlop.md)
+- [Save Actions：优化文件保存](./docs/idea-plugins/save-actions.md)
+- [SequenceDiagram：一键可以生成时序图](./docs/idea-plugins/sequence-diagram.md)
+- [Translation：翻译](./docs/idea-plugins/translation.md)
