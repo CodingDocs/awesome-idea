@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkawesome_idea=self.webpackChunkawesome_idea||[]).push([[285],{285:(e,s,a)=>{a.r(s)}}]);
