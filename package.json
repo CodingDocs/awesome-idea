@@ -1,0 +1,22 @@
+{
+  "name": "awesome-idea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CodingDocs/awesome-idea.git",
+  "author": "Guide",
+  "license": "MIT",
+  "scripts": {
+    "serve:vite": "vuepress-vite dev docs",
+    "serve:webpack": "vuepress-webpack dev docs",
+    "serve-clean:vite": "vuepress-vite dev docs --clean-cache",
+    "serve-clean:webpack": "vuepress-webpack dev docs --clean-cache",
+    "build:vite": "vuepress-vite build docs",
+    "build:webpack": "vuepress-webpack build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-search": "2.0.0-beta.36",
+    "vuepress-theme-hope": "2.0.0-beta.28",
+    "vuepress-vite": "2.0.0-beta.36",
+    "vuepress-webpack": "2.0.0-beta.36"
+  }
+}
