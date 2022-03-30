@@ -3,13 +3,13 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 export default defineSidebarConfig([
   {
     text: "技巧",
-    prefix: "tip/",
+    prefix: "/tips/",
     collapsable: false,
     children: "structure",
   },
   {
     text: "插件",
-    prefix: "plugins/",
+    prefix: "/plugins/",
     children: [
       "shortcut-key",
       "themes",
