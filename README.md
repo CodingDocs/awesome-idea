@@ -11,11 +11,12 @@
         <a href="https://gitee.com/SnailClimb/awesome-idea-tutorial">Gitee</a>
     </p>  
 </div>
+
 IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧
 
 ## 小技巧
 
-- [IDEA 高效使用指南](./docs/idea-plugins/idea-efficient-use-guide.md)
+- [IDEA 高效使用指南](./docs/idea-tips/idea-efficient-use-guide.md)
 - [IDEA 高效重构指南](./docs/idea-tips/idea-refractor-intro.md)
 - [IDEA 插件开发入门](./docs/idea-tips/idea-plug-in-development-intro.md)
 - [IDEA 源码阅读小技巧](./docs/idea-tips/idea-source-code-reading-skills.md)
@@ -23,9 +24,12 @@ IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小
 ## 必备插件
 
 - [IDEA 快捷键相关插件](./docs/idea-plugins/shortcut-key.md)
-- [IDEA 主题推荐](./docs/idea-plugins/idea-themes.md)
+- [IDEA 优质主题推荐](./docs/idea-plugins/idea-themes.md)
 - [IDEA 代码优化插件推荐](./docs/idea-plugins/improve-code.md)
 - [IDEA 界面美化插件推荐](./docs/idea-plugins/interface-beautification.md)
+
+
+
 - [Camel Case：命名之间快速切换](./docs/idea-plugins/camel-case.md)
 - [CodeGlance：代码微型地图](./docs/idea-plugins/code-glance.md)
 - [Statistic：项目代码统计](./docs/idea-plugins/code-statistic.md)
