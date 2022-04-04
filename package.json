@@ -6,12 +6,12 @@
   "author": "Guide",
   "license": "MIT",
   "scripts": {
-    "serve:vite": "vuepress-vite dev docs",
-    "serve:webpack": "vuepress-webpack dev docs",
-    "serve-clean:vite": "vuepress-vite dev docs --clean-cache",
-    "serve-clean:webpack": "vuepress-webpack dev docs --clean-cache",
-    "build:vite": "vuepress-vite build docs",
-    "build:webpack": "vuepress-webpack build docs"
+    "vite-build": "vuepress-vite build docs",
+    "vite-clean-serve": "vuepress-vite dev docs --clean-cache",
+    "vite-serve": "vuepress-vite dev docs",
+    "webpack-build": "vuepress-webpack build docs",
+    "webpack-clean-serve": "vuepress-webpack dev docs --clean-cache",
+    "webpack-serve": "vuepress-webpack dev docs"
   },
   "devDependencies": {
     "@vuepress/plugin-search": "2.0.0-beta.36",
