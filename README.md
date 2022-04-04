@@ -7,8 +7,9 @@
 </p>
 <p align="center">
   <a href="https://github.com/CodingDocs/awesome-idea-tutorial">Github</a> |
-  <a href="https://gitee.com/SnailClimb/awesome-idea-tutorial">Gitee</a>
+  <a href="https://gitee.com/SnailClimb/awesome-idea">Gitee</a>
 </p>
+在线阅读：[https://idea.javaguide.cn/](https://idea.javaguide.cn/) 。
 
 IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧
 

@@ -112,8 +112,6 @@ patchPluginXml {
 
 这就非常贴心了！如果这都不能让你点赞，我要这文章有何用!
 
-![](http://wx1.sinaimg.cn/large/006BkP2Hly1fsxxff7zd9g304g0480td.gif)
-
 ## 03 手动创建 Action
 
 我们可以把 Action 看作是 IDEA 提供的事件响应处理器，通过 Action 我们可以自定义一些事件处理逻辑/动作。比如说你点击某个菜单的时候，我们进行一个展示对话框的操作。
