@@ -3,7 +3,6 @@ title: 必备插件
 icon: plugin
 ---
 
-## 必备插件
 
 - [IDEA 快捷键相关插件](./shortcut-key.md)
 - [IDEA 优质主题推荐](./themes.md)

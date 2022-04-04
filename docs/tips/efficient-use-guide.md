@@ -138,7 +138,7 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 安装完成之后建议将与语言替换成中文，提示更加友好一点。
 
-![阿里巴巴 Java 代码规范](https://javaguide.cn/assets/img/Alibaba-Java-Code-Guidelines2.933b7a93.png)
+![阿里巴巴 Java 代码规范](./assets/Alibaba-Java-Code-Guidelines.png)
 
 根据官方描述:
 
@@ -148,7 +148,7 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 这个插件会实时检测出我们的代码不匹配它的规则的地方，并且会给出修改建议。比如我们按照下面的方式去创建线程池的话，这个插件就会帮我们检测出来,如下图所示。
 
-![](https://javaguide.cn/assets/img/Alibaba-Java-Code-Guidelines1.76918fbe.png)
+![阿里巴巴 Java 代码规范](./assets/Alibaba-Java-Code-Guidelines2.png)
 
 ### SequenceDiagram: 一键生成时序图
 
@@ -173,7 +173,7 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 使用各种鲜明的颜色来展示你的括号，效果图如下。可以看出代码层级变得更加清晰了，可以说非常实用友好了！
 
-![彩虹括号](https://javaguide.cn/assets/img/rainbow-brackets.4eff901b.png)
+![彩虹括号](./assets/rainbow-brackets.png)
 
 ## 03 主题优化
 

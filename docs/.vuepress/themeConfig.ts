@@ -1,21 +1,18 @@
 import { defineThemeConfig } from "vuepress-theme-hope";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
+import { navbarConfig } from "./navbar";
+import { sidebarConfig } from "./sidebar";
 
 export default defineThemeConfig({
   title: "IDEA 高效使用指南",
-
   author: "Guide",
-
   logo: "/logo.svg",
   hostname: "https://codingdocs.github.io",
   repo: "CodingDocs/awesome-idea",
   docsDir: "docs",
   iconPrefix: "iconfont icon-",
   pure: true,
-
-  navbar,
-  sidebar,
+  navbar: navbarConfig,
+  sidebar: sidebarConfig,
 
   pageInfo: ["Author", "Category", "Tag", "Date", "Original", "Word"],
 
