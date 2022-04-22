@@ -53,9 +53,9 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 | 使用频率   | 相关快捷键                               |
 | ---------- | ---------------------------------------- |
-| ⭐⭐⭐⭐⭐ | `Ctrl + N` (Win) / `Command + O` （Mac） |
+| ⭐⭐⭐⭐⭐ | `Ctrl + N` (Win) / `Command + ○` （Mac） |
 
-使用快捷键 `Ctrl + N` (Win) / `Command + O` （Mac）可以快速检索类/文件。
+使用快捷键 `Ctrl + N` (Win) / `Command + ○` （Mac）可以快速检索类/文件。
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135629367.png)
 
