@@ -20,6 +20,7 @@ IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小
 - [IDEA 高效重构指南](./docs/tips/refractor-intro.md)
 - [IDEA 插件开发入门](./docs/tips/plug-in-development-intro.md)
 - [IDEA 源码阅读小技巧](./docs/tips/source-code-reading-skills.md)
+- [IDEA 高级调试技巧](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247516501&idx=1&sn=a8a99ec40a16b08daf73c14c36bdb768&chksm=cea1ce9ef9d64788e19c494979e37b99a963a83e3f7b4a18764a4d2ea942653500589d005f3b&token=787347680&lang=zh_CN#rd)
 
 ## 必备插件
 
