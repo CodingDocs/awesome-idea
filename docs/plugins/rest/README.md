@@ -59,7 +59,7 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 这个插件还可以作为一个简单的 http 请求工具来使用。如下图所示。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/RestfulToolkit2.png)
+![](https://oss.javaguide.cn/javaguide/RestfulToolkit2.png)
 
 #### 复制生成 URL、复制方法参数...
 
@@ -93,4 +93,4 @@ RESTFulToolkit 原作者不更新了，IDEA.201 及以上版本不再适配。
 
 因此，国内就有一个大佬参考 RESTFulToolkit 开发了一款类似的插件 —— RestfulTool（功能较少一些，不过够用了）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/image-20210830112030237.png)
+![](https://oss.javaguide.cn/javaguide/image-20210830112030237.png)

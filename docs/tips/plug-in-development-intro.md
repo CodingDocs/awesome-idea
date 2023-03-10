@@ -13,7 +13,7 @@ tag:
 
 我自己想过，但是没去尝试过。刚好有一位读者想让我写一篇入门 IDEA 开发的文章，所以，我在周末就花了一会时间简单了解一下。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118071711216.png)
+![](https://oss.javaguide.cn/2020-11/image-20201118071711216.png)
 
 不过，**这篇文章只是简单带各位小伙伴入门一下 IDEA 插件开发**，个人精力有限，暂时不会深入探讨太多。如果你已经有 IDEA 插件开发的相关经验的话，这篇文章就可以不用看了，因为会浪费你 3 分钟的时间。
 
@@ -25,11 +25,11 @@ tag:
 
 **第一步，选择 Gradle 项目类型并勾选上相应的依赖。**
 
-![选择 Gradle 项目类型并勾选上相应的依赖](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/1.png)
+![选择 Gradle 项目类型并勾选上相应的依赖](https://oss.javaguide.cn/2020-11/1.png)
 
 **第二步，填写项目相关的属性比如 GroupId、ArtifactId。**
 
-![填写项目相关的属性](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/2.png)
+![填写项目相关的属性](https://oss.javaguide.cn/2020-11/2.png)
 
 **第三步，静静等待项目下载相关依赖。**
 
@@ -39,7 +39,7 @@ tag:
 
 新建完成的项目结构如下图所示。
 
-![插件项目结构概览](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/%E6%8F%92%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%A7%88.png)
+![插件项目结构概览](https://oss.javaguide.cn/2020-11/%E6%8F%92%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%A7%88.png)
 
 这里需要额外注意的是下面这两个配置文件。
 
@@ -108,7 +108,7 @@ patchPluginXml {
 
 没有开发过 IDEA 插件的小伙伴直接看这两个配置文件内容可能会有点蒙。所以，我专门找了一个 IDEA 插件市场提供的现成插件来说明一下。小伙伴们对照下面这张图来看下面的配置文件内容就非常非常清晰了。
 
-![插件信息](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/iShot2020-11-13%2016.15.53.png)
+![插件信息](https://oss.javaguide.cn/2020-11/iShot2020-11-13%2016.15.53.png)
 
 这就非常贴心了！如果这都不能让你点赞，我要这文章有何用!
 
@@ -118,11 +118,11 @@ patchPluginXml {
 
 **第一步，右键 `java` 目录并选择 new 一个 Action**
 
-![](<https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/%E6%96%B0%E5%BB%BAaction%20(1).png>)
+![](<https://oss.javaguide.cn/2020-11/%E6%96%B0%E5%BB%BAaction%20(1).png>)
 
 **第二步，配置 Action 相关信息比如展示名称。**
 
-![配置动作属性 (1)](<https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/%E9%85%8D%E7%BD%AE%E5%8A%A8%E4%BD%9C%E5%B1%9E%E6%80%A7%20(1).png>)
+![配置动作属性 (1)](<https://oss.javaguide.cn/2020-11/%E9%85%8D%E7%BD%AE%E5%8A%A8%E4%BD%9C%E5%B1%9E%E6%80%A7%20(1).png>)
 
 创建完成之后，我们的 `plugin.xml` 的 `<actions>`节点下会自动生成我们刚刚创建的 Action 信息:
 
@@ -155,7 +155,7 @@ public class HelloAction extends AnAction {
 
 举个例子。我上面创建的 Action 的所属 Group 是 **ToolsMenu(Tools)** 。这样的话，我们创建的 Action 所在的位置就在 Tools 这个菜单下。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201113192255689.png)
+![](https://oss.javaguide.cn/2020-11/image-20201113192255689.png)
 
 再举个例子。加入我上面创建的 Action 所属的 Group 是**MainMenu** （IDEA 最上方的主菜单栏）下的 **FileMenu(File)** 的话。
 
@@ -170,21 +170,21 @@ public class HelloAction extends AnAction {
 
 我们创建的 Action 所在的位置就在 File 这个菜单下。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201113201634643.png)
+![](https://oss.javaguide.cn/2020-11/image-20201113201634643.png)
 
 ## 04 验收成果
 
 点击 `Gradle -> Tasks -> intellij -> runIde` 就会启动一个默认了这个插件的 IDEA。然后，你可以在这个 IDEA 上实际使用这个插件了。
 
-![点击 runIde 就会启动一个默认了这个插件的 IDEA](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118075912490.png)
+![点击 runIde 就会启动一个默认了这个插件的 IDEA](https://oss.javaguide.cn/2020-11/image-20201118075912490.png)
 
 效果如下:
 
-![点击 runIde 就会启动一个默认了这个插件的 IDEA](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118080358764.png)
+![点击 runIde 就会启动一个默认了这个插件的 IDEA](https://oss.javaguide.cn/2020-11/image-20201118080358764.png)
 
 我们点击自定义的 Hello Action 的话就会弹出一个对话框并展示出我们自定义的信息。
 
-![IDEA 插件HelloWorld](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/IDEA%E6%8F%92%E4%BB%B6HelloWorld.png)
+![IDEA 插件HelloWorld](https://oss.javaguide.cn/2020-11/IDEA%E6%8F%92%E4%BB%B6HelloWorld.png)
 
 ## 05 完善一下
 
@@ -192,15 +192,15 @@ public class HelloAction extends AnAction {
 
 这里我们简单实现一个聊天机器人。代码的话，我是直接参考的我大二刚学 Java 那会写的一个小项目（_当时写的代码实在太烂了！就很菜！_）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201114100213337.png)
+![](https://oss.javaguide.cn/2020-11/image-20201114100213337.png)
 
 首先，你需要在[图灵机器人官网](http://www.tuling123.com/ "图灵机器人官网")申请一个机器人。（_其他机器人也一样，感觉这个图灵机器人没有原来好用了，并且免费调用次数也不多_）
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118075453172.png)
+![](https://oss.javaguide.cn/2020-11/image-20201118075453172.png)
 
 然后，简单写一个方法来请求调用机器人。由于代码比较简单，我这里就不放出来了，大家简单看一下效果就好。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118075803163.png)
+![](https://oss.javaguide.cn/2020-11/image-20201118075803163.png)
 
 ## 06 打包分发
 

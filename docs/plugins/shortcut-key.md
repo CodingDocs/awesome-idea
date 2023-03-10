@@ -14,7 +14,7 @@ tag:
 
 举个例子。我直接点击 tab 栏下的菜单打开 Version Control(版本控制) 的话，这个插件就会提示你可以用快捷键 `command+9`或者`shift+command+9`打开。如下图所示。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/Key-Promoter-X1.png)
+![](https://oss.javaguide.cn/idea/Key-Promoter-X1.png)
 
 除了这个很棒的功能之外，这个插件还有一个功能我觉得非常棒。
 
@@ -22,7 +22,7 @@ tag:
 
 我忘记最多的快捷键是 debug 的时候经常使用的 F8（Step Over）。如下图所示。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/Key-Promoter-X2.png)
+![](https://oss.javaguide.cn/idea/Key-Promoter-X2.png)
 
 关于快捷键，很多人不愿意去记，觉得单纯靠鼠标就完全够了。
 

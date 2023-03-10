@@ -13,13 +13,13 @@ tag:
 
 前面几个下载量比较高的，目前都还未支持 2021.x 版本的 IDEA。
 
-![Background Image Plus](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/image-20211010174138279.png)
+![Background Image Plus](https://oss.javaguide.cn/idea/image-20211010174138279.png)
 
 通过这个插件，你可以将 IDEA 背景设置为指定的图片，支持随机背景。
 
 效果图如下:
 
-![Background Image Plus 设置背景效果图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/image-20211010173730828.png)
+![Background Image Plus 设置背景效果图](https://oss.javaguide.cn/idea/image-20211010173730828.png)
 
 如果你想要设置随机背景的话，可以通过 IDEA 设置页 **Settings** -> **Appearance & Behaviour** -> **Background Image Plus** 自定义设置项，随机显示目录下的图片为背景图。
 
@@ -31,13 +31,13 @@ tag:
 
 你可以通过 IDEA 设置页 **Settings** -> **Appearance & Behaviour** -> **Power Mode II** 自定义设置项。
 
-![Power Mode II](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/image-20211010175304108.png)
+![Power Mode II](https://oss.javaguide.cn/idea/image-20211010175304108.png)
 
 ## Nyan Progress Bar: 进度条美化
 
 可以让你拥有更加漂亮的进度条。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/image-20211010175434133.png)
+![](https://oss.javaguide.cn/idea/image-20211010175434133.png)
 
 ## Grep Console: 控制台输出处理
 

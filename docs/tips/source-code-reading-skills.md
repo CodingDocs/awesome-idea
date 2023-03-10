@@ -33,7 +33,7 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 如果我们需要查看 `BeanDefinition` 被哪些类实现的话，只需要把鼠标移动到 `BeanDefinition` 类名上，然后使用快捷键 `Ctrl + H` 即可。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135533686.png)
+![](https://oss.javaguide.cn/idea/20210527135533686.png)
 
 同理，如果你想查看接口 `BeanDefinition` 继承的接口 `AttributeAccessor` 被哪些类实现的话，只需要把鼠标移动到 `AttributeAccessor` 类名上，然后使用快捷键 `Ctrl + H` 即可。
 
@@ -47,7 +47,7 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 我们在对应的类的任意位置使用快捷键 `Alt + 7`(Win) / `Command +7` （Mac）即可。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135552183.png)
+![](https://oss.javaguide.cn/idea/20210527135552183.png)
 
 ### 快速检索类
 
@@ -57,7 +57,7 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 使用快捷键 `Ctrl + N` (Win) / `Command + ○` （Mac）可以快速检索类/文件。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135629367.png)
+![](https://oss.javaguide.cn/idea/20210527135629367.png)
 
 ### 关键字检索
 
@@ -92,7 +92,7 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 比如 `BeanDefinition` 接口的 `getParentName()` 方法就有多个不同的实现。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135703164.png)
+![](https://oss.javaguide.cn/idea/20210527135703164.png)
 
 ### 查看方法被使用的情况
 
@@ -102,7 +102,7 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 我们可以通过直接在方法名上使用快捷键 `Alt + F7` 来查看这个方法在哪些地方被调用过。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135712962.png)
+![](https://oss.javaguide.cn/idea/20210527135712962.png)
 
 ### 查看最近使用的文件
 
@@ -112,7 +112,7 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 你可以通过快捷键 `Ctrl + E`(Win) / `Command +E` （Mac）来显示 IDEA 最近使用的一些文件。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135733816.png)
+![](https://oss.javaguide.cn/idea/20210527135733816.png)
 
 ### 查看图表形式的类继承链
 
@@ -122,19 +122,19 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 点击类名 **右键** ，选择 **Shw Diagrams** 即可查看图表形式的类继承链。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135745518.png)
+![](https://oss.javaguide.cn/idea/20210527135745518.png)
 
 你还可以对图表进行一些操作。比如，你可以点击图表中具体的类 **右键**，然后选择显示它的实现类或者父类。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135757163.png)
+![](https://oss.javaguide.cn/idea/20210527135757163.png)
 
 再比如你还可以选择是否显示类中的属性、方法、内部类等等信息。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135902827.png)
+![](https://oss.javaguide.cn/idea/20210527135902827.png)
 
 如果你想跳转到对应类的源码的话，直接点击图表中具体的类 **右键** ，然后选择 **Jump to Source** 。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210527135807668.png)
+![](https://oss.javaguide.cn/idea/20210527135807668.png)
 
 ## 插件推荐
 
@@ -148,25 +148,25 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 > 如果你因为网络问题没办法使用 IDEA 自带的插件市场的话，也可以通过 IDEA 插件市场的官网手动下载安装。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/2021052218304014.png)
+![](https://oss.javaguide.cn/idea/2021052218304014.png)
 
 **如何使用呢？**
 
 1、选中方法名（注意不要选类名），然后点击鼠标右键，选择 **Sequence Diagram** 选项即可！
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021170110697.png)
+![](https://oss.javaguide.cn/idea/20201021170110697.png)
 
 2、配置生成的序列图的一些基本的参数比如调用深度之后，我们点击 ok 即可！
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/c5040f1105c762ddf8689892913bc02d.png)
+![](https://oss.javaguide.cn/idea/c5040f1105c762ddf8689892913bc02d.png)
 
 3、你还可以通过生成的时序图来定位到相关的代码，这对于我们阅读源码的时候尤其有帮助！
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021171623809.png)
+![](https://oss.javaguide.cn/idea/20201021171623809.png)
 
 4、时序图生成完成之后，你还可以选择将其导出为图片。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021170228723.png)
+![](https://oss.javaguide.cn/idea/20201021170228723.png)
 
 相关阅读: [《安利一个 IDEA 骚操作:一键生成方法的序列图》](https://mp.weixin.qq.com/s/SG1twZczqdup_EQAOmNERg) 。
 
@@ -176,15 +176,15 @@ public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 **Statistic** 这个插件来帮助我们实现这一需求。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210522183550110.png)
+![](https://oss.javaguide.cn/idea/20210522183550110.png)
 
 有了这个插件之后你可以非常直观地看到你的项目中所有类型的文件的信息比如数量、大小等等，可以帮助你更好地了解你们的项目。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210522183616310.png)
+![](https://oss.javaguide.cn/idea/20210522183616310.png)
 
 你还可以使用它看所有类的总行数、有效代码行数、注释行数、以及有效代码比重等等这些东西。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20210522183630459.png)
+![](https://oss.javaguide.cn/idea/20210522183630459.png)
 
 如果，你担心插件过多影响 IDEA 速度的话，可以只在有代码统计需求的时候开启这个插件，其他时间禁用它就完事了！
 

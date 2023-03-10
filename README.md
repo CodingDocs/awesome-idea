@@ -2,13 +2,14 @@
 
 <p align="center">
   <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-    <img src="https://img-blog.csdnimg.cn/48dccc72371e45e5b7e64663760e4d76.png?" style="margin: 0 auto; width: 850px;" />
+    <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/CodingDocs/awesome-idea-tutorial">Github</a> |
   <a href="https://gitee.com/SnailClimb/awesome-idea">Gitee</a>
 </p>
+
 
 在线阅读：[https://idea.javaguide.cn/](https://idea.javaguide.cn/) 
 

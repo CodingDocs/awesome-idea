@@ -92,7 +92,7 @@ IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不
 
 勾选上 _Preferences / Settings | Editor | General | Appearance_ 下的 Show method separators 选项之后，方法分割线就有了，这会小幅提高代码的可读性。
 
-![显示方法分割线](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/%E6%98%BE%E7%A4%BA%E6%96%B9%E6%B3%95%E5%88%86%E5%89%B2%E7%BA%BF.png)
+![显示方法分割线](https://oss.javaguide.cn/javaguide/%E6%98%BE%E7%A4%BA%E6%96%B9%E6%B3%95%E5%88%86%E5%89%B2%E7%BA%BF.png)
 
 ### 显示某个文件的提交记录
 
@@ -118,7 +118,7 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 如果你觉得 IDEA 插件安装的太多比较卡顿的话，不用担心！Tabnine 插件还有一个对应的在线网站，在这个网站上你可以根据代码关键字搜索相关代码示例，非常不错！网站地址: https://www.tabnine.com/ 。
 
-![Tabnine网页版示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/Tabnine.png)
+![Tabnine网页版示意图](https://oss.javaguide.cn/javaguide/Tabnine.png)
 
 ### Key Promoter X:快捷键提示
 
@@ -126,11 +126,11 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 举个例子。我直接点击 tab 栏下的菜单打开 Version Control(版本控制) 的话，这个插件就会提示你可以用快捷键 `command+9`或者`shift+command+9`打开。如下图所示。
 
-![快捷键提示](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/Key-Promoter-X1.png)
+![快捷键提示](https://oss.javaguide.cn/idea/Key-Promoter-X1.png)
 
 它还可以展示出哪些快捷键你忘记使用的次数最多！
 
-![遗忘的快捷键次数统计](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/Key-Promoter-X2.png)
+![遗忘的快捷键次数统计](https://oss.javaguide.cn/idea/Key-Promoter-X2.png)
 
 ### Alibaba Java Code Guidelines: 阿里巴巴 Java 代码规范
 
@@ -158,7 +158,7 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 2. 从时序图中删除对应的类或者方法。
 3. 将生成的时序图导出为 PNG 图片格式。
 
-![一键生成时序图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021171623809-20211010211828759.png)
+![一键生成时序图](https://oss.javaguide.cn/idea/20201021171623809-20211010211828759.png)
 
 ### Save Actions: 优化文件保存
 

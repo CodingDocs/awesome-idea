@@ -39,7 +39,7 @@ tag:
 
 下图是我写的一个 HTTP 框架中的执行某个方法的序列图。这个图描述了我们在调用 `InterceptorFactory`类的 `loadInterceptors()` 方法的时候，所涉及到的类之间的调用关系。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70.png)
+![](https://oss.javaguide.cn/idea/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70.png)
 
 另外，国内一般更喜欢称呼序列图为"时序图"。
 
@@ -77,22 +77,22 @@ tag:
 
 :::
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021165654262.png)
+![](https://oss.javaguide.cn/idea/20201021165654262.png)
 
 ### 简单使用
 
 1. 选中方法名（注意不要选类名），然后点击鼠标右键，选择 **Sequence Diagram** 选项即可！
 
-   ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021170110697-20211010211819042.png)
+   ![](https://oss.javaguide.cn/idea/20201021170110697-20211010211819042.png)
 
 1. 配置生成的序列图的一些基本的参数比如调用深度之后，我们点击 ok 即可！
 
-   ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/c5040f1105c762ddf8689892913bc02d-20211010211823985.png)
+   ![](https://oss.javaguide.cn/idea/c5040f1105c762ddf8689892913bc02d-20211010211823985.png)
 
 你还可以通过生成的时序图来定位到相关的代码，这对于我们阅读源码的时候尤其有帮助！
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021171623809-20211010211828759.png)
+![](https://oss.javaguide.cn/idea/20201021171623809-20211010211828759.png)
 
 时序图生成完成之后，你还可以选择将其导出为图片。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/idea/20201021170228723-20211010211832965.png)
+![](https://oss.javaguide.cn/idea/20201021170228723-20211010211832965.png)
