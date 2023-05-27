@@ -1,23 +1,19 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
-import themeConfig from "./themeConfig";
+import { defineUserConfig } from "vuepress";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
-export default defineHopeConfig({
+import theme from "./theme.js";
+
+export default defineUserConfig({
   dest: "./dist",
-  title: "IDEA 高效使用指南",
 
-  locales: {
-    "/": {
-      lang: "zh-CN",
-    },
-  },
-  head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-      },
-    ],
+  title: "IDEA 高效使用指南",
+  lang: "zh-CN",
+
+  theme,
+
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+    }),
   ],
-  themeConfig,
 });
