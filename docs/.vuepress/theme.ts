@@ -1,18 +1,18 @@
-import { defineThemeConfig } from "vuepress-theme-hope";
-import { navbarConfig } from "./navbar";
-import { sidebarConfig } from "./sidebar";
+import { hopeTheme } from "vuepress-theme-hope";
+import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
 
-export default defineThemeConfig({
-  title: "IDEA 高效使用指南",
+export default hopeTheme({
   author: "Guide",
   logo: "/logo.svg",
   hostname: "https://codingdocs.github.io",
   repo: "CodingDocs/awesome-idea",
   docsDir: "docs",
-  iconPrefix: "iconfont icon-",
+  iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
   pure: true,
-  navbar: navbarConfig,
-  sidebar: sidebarConfig,
+
+  navbar,
+  sidebar,
 
   pageInfo: ["Author", "Category", "Tag", "Date", "Original", "Word"],
 
@@ -27,25 +27,16 @@ export default defineThemeConfig({
   },
 
   footer:
-    '主题: <a href="https://vuepress-theme-hope.github.io/v2/">VuePress Theme Hope</a></br><a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
+    '主题: <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></br><a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
   displayFooter: true,
 
   plugins: {
-    blog: {
-      autoExcerpt: true,
-    },
+    blog: true,
     mdEnhance: {
       gfm: true,
     },
     feed: {
       json: true,
-    },
-    search: {
-      locales: {
-        "/": {
-          placeholder: "搜索",
-        },
-      },
     },
   },
 });
