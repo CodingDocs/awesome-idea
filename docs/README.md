@@ -20,9 +20,6 @@ tagline: IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 
 - [IDEA 优质主题推荐](./plugins/themes.md)
 - [IDEA 代码优化插件推荐](./plugins/improve-code.md)
 - [IDEA 界面美化插件推荐](./plugins/interface-beautification.md)
-
----
-
 - [Camel Case: 命名之间快速切换](./plugins/camel-case/README.md)
 - [CodeGlance: 代码微型地图](./plugins/code-glance/README.md)
 - [Statistic: 项目代码统计](./plugins/code-statistic/README.md)
@@ -34,5 +31,6 @@ tagline: IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 
 - [RestfulToolkit: RESTful Web 服务辅助开发工具](./plugins/rest/README.md)
 - [Save Actions: 优化文件保存](./plugins/save-actions/README.md)
 - [SequenceDiagram: 一键可以生成时序图](./plugins/sequence-diagram.md)
+- [File Expander：查看压缩包内容](./plugins/file-expander.md)
 - [Translation: 翻译](./plugins/translation/README.md)
 - [其他](./plugins/others.md)

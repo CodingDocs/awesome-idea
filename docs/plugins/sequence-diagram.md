@@ -1,6 +1,5 @@
 ---
-title: |-
-  SequenceDiagram: 一键可以生成时序图
+title: SequenceDiagram: 一键可以生成时序图
 category: IDEA 指南
 tag:
   - IDEA
@@ -35,7 +34,7 @@ tag:
 
 下图是微信支付的业务流程时序图。这个图描述了微信支付相关角色（顾客，商家...）在微信支付场景下，基础支付和支付的的顺序调用关系。
 
-![](https://img-blog.csdnimg.cn/img_convert/3a48c8d17aea2064ff11b6d3fd1fb2cb.png)
+![](https://oss.javaguide.cn/github/awesome-idea-tutorial/3a48c8d17aea2064ff11b6d3fd1fb2cb.png)
 
 下图是我写的一个 HTTP 框架中的执行某个方法的序列图。这个图描述了我们在调用 `InterceptorFactory`类的 `loadInterceptors()` 方法的时候，所涉及到的类之间的调用关系。
 

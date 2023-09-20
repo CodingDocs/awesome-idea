@@ -7,8 +7,6 @@ tag:
   - 高效使用
 ---
 
-![2021/12/07 - Guide的书桌](https://img-blog.csdnimg.cn/5a114e95857440b293ad7d297906a1e2.JPG)
-
 大家好，我是 Guide!
 
 昨晚刷到一篇知乎 370 多点赞的 IDEA 高效使用教程，带着好奇心，点击去一看，好家伙，又是盗用别人原创为自己引流的恶心行为。
@@ -34,23 +32,23 @@ tag:
 
 勾选上 _Preferences / Settings | Editor | General_ 下的 _Change font size with Command + Mouse Wheel_ 选项之后，我们就可以直接使用 `⌘+鼠标滚轮`（Mac）/ `Ctrl+鼠标滚轮`(Windows&Linux)来更改窗口字体的大小
 
-![开启更改所有选项卡的字体大小功能](https://img-blog.csdnimg.cn/90540bf7b6a94f2da9a50bd6587d1e58.png)
+![开启更改所有选项卡的字体大小功能](https://oss.javaguide.cn/github/awesome-idea-tutorial/90540bf7b6a94f2da9a50bd6587d1e58.png)
 
 ### 字体设置
 
 修改 _Preferences / Settings | Editor | Font_ 选项下的字体设置，字体推荐使用 JetBrains Mono ，字体大小建议 16/18，根据个人需要选择是否需要开启连字。
 
-![字体设置](https://img-blog.csdnimg.cn/348b7d381322420383d0c4fc502b4068.png)
+![字体设置](https://oss.javaguide.cn/github/awesome-idea-tutorial/348b7d381322420383d0c4fc502b4068.png)
 
 连字开启之后，代码可读性会更强。
 
-![开启连字之前&之后](https://img-blog.csdnimg.cn/9f7faa76ecbc4865b44460e506cb2f30.png)
+![开启连字之前&之后](https://oss.javaguide.cn/github/awesome-idea-tutorial/9f7faa76ecbc4865b44460e506cb2f30.png)
 
 ### 配置类注释模板
 
 修改 _Preferences / Settings | Editor | File adn Code Templates_ 下的 `Class` 和 `Enum` 的模板。
 
-![配置类注释模板.](https://img-blog.csdnimg.cn/a17b77401ea743c2bbd84441bf458d15.png)
+![配置类注释模板.](https://oss.javaguide.cn/github/awesome-idea-tutorial/a17b77401ea743c2bbd84441bf458d15.png)
 
 我的日常项目的类注释模板配置为:
 
@@ -68,7 +66,7 @@ public class ${NAME} {
 
 IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不知道大家有没有注意。就比如说你输入一个 `sout` 就可以直接输出一行输出语句 `System.out.println();` 。
 
-![配置LiveTemplates](https://img-blog.csdnimg.cn/0fcc5dec656b424898223014864e54a5.png)
+![配置LiveTemplates](https://oss.javaguide.cn/github/awesome-idea-tutorial/0fcc5dec656b424898223014864e54a5.png)
 
 你可以根据自己的习惯对 IDEA 自带的编码模板进行修改，并且，你还可以添加新的编码模板来提高编码速度。非常使用！
 
@@ -76,7 +74,7 @@ IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不
 
 修改 _File -> New Projects Setup -> Structure...| Project_ 下的 Project SDK 选项，将其更改为你最常用的 Java 版本。
 
-![全局jdk配置](https://img-blog.csdnimg.cn/4136768ead774bd197a6323f726fdcf7.png)
+![全局jdk配置](https://oss.javaguide.cn/github/awesome-idea-tutorial/4136768ead774bd197a6323f726fdcf7.png)
 
 这样的话，你新导入的项目或者新建的项目都会默认使用这个版本的 SDK。
 
@@ -84,7 +82,7 @@ IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不
 
 勾选上 _Preferences / Settings | Editor | General | Auto Import_ 下的指定选项即可！
 
-![自动导包&删除无用包](https://img-blog.csdnimg.cn/77d3f95095a94db4b27bcdcc35cc90a2.png)
+![自动导包&删除无用包](https://oss.javaguide.cn/github/awesome-idea-tutorial/77d3f95095a94db4b27bcdcc35cc90a2.png)
 
 这样设置之后，IDEA 会自动帮你导包（唯一确定的时候才会生效）以及删除代码中没用到的包。
 
@@ -98,7 +96,7 @@ IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不
 
 在界面左侧空白区域邮件，勾选上 _Annotate with Git Blame_ 即可显示对应文件详细代码提交记录，包括提交信息、提交人、变更文件等信息，非常强大！
 
-![](https://img-blog.csdnimg.cn/img_convert/8a33b15770b464d9673063f00da8b6ca.png)
+![](https://oss.javaguide.cn/github/awesome-idea-tutorial/8a33b15770b464d9673063f00da8b6ca.png)
 
 ## 02 必备插件
 
@@ -179,7 +177,7 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 在[这几款 IDEA 主题也太好看了吧！！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247495661&idx=1&sn=3e0b33b4dc41985344c8aafcccc6bb13&chksm=cea1a026f9d62930b88711da89145080ca653f692bd8b42fed8c2cc1e8381abf76f797813fde&scene=178&cur_album_id=1319419426898329600#rd)这篇文章中，我精选了几个比较适合 Java 编码的 IDEA 主题供小伙伴们选择（我自己用的是 One Dark theme 这款）。
 
-![One Dark theme ](https://img-blog.csdnimg.cn/4577a98272094d1d96f092e50d3d6d5e.png)
+![One Dark theme ](https://oss.javaguide.cn/github/awesome-idea-tutorial/4577a98272094d1d96f092e50d3d6d5e.png)
 
 挺难受的，本着一片好意发这篇文章，结果还被喷了，很多小伙伴说我审美不行，还有一些小伙伴说花里胡哨的，没有原本自带的主题好看。
 
@@ -189,6 +187,6 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 在 [真香！用 IDEA 神器看源码，效率真高！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247505133&idx=1&sn=5f722cb29c655203b27cb38684503390&chksm=cea19b26f9d61230d87df97c8efd892ff6e3f7be77e6ec104c8f823a9a0c7dc7232f03b8351b&scene=178&cur_album_id=1319419426898329600#rd) 这篇文章中，我介绍了自己平时看源码的时候常用的快捷键/小技巧！非常好用！
 
-![IDEA源码阅读技巧](https://img-blog.csdnimg.cn/8a9024040e8c431796aa5427efcf35e5.png)
+![IDEA源码阅读技巧](https://oss.javaguide.cn/github/awesome-idea-tutorial/8a9024040e8c431796aa5427efcf35e5.png)
 
 掌握这些快捷键/小技巧，使用 IDEA 看源码的效率提升一个等级！

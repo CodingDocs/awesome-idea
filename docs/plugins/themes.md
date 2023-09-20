@@ -108,7 +108,7 @@ Gradianto 附带了自然界的渐变色，看着挺舒服的。另外，这个�
 
 这个主题的效果图如下。
 
-![](https://img-blog.csdnimg.cn/img_convert/194581c7b72d49b512b12814340f00c8.png)
+![](https://oss.javaguide.cn/github/awesome-idea-tutorial/194581c7b72d49b512b12814340f00c8.png)
 
 ## 后记
 

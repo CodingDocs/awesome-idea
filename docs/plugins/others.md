@@ -6,6 +6,8 @@ tag:
   - IDEA 插件
 ---
 
+1. **IdeaVim**:适用于 JetBrains IDE 的 Vim 引擎。
+1. **Chinese (Simplified) Language Pack**:中文语言包，将 IDEA 转换为中文界面。
 1. **leetcode editor** :提供在线 Leetcode 刷题功能，比较方便我们刷题，不过我试用之后发现有一些小 bug，个人感觉还是直接在网站找题目刷来的痛快一些。
 1. **​A Search with Github**: 直接通过 Github 搜索相关代码。
 1. **stackoverflow**: 选中相关内容后单击右键即可快速跳转到 stackoverflow 。

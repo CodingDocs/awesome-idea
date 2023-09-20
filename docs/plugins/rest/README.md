@@ -45,7 +45,7 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 > 如果你因为网络问题没办法使用 IDEA 自带的插件市场的话，也可以通过[IDEA 插件市场的官网](https://plugins.jetbrains.com/idea)手动下载安装。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/41a9bfa18920403ba4db83e324f8621e~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://oss.javaguide.cn/github/javaguide/tools/idea/41a9bfa18920403ba4db83e324f8621e~tplv-k3u1fbpfcp-zoom-1.png)
 
 ### 简单使用
 
@@ -53,7 +53,7 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 根据 URL 直接跳转到对应的方法定义 (Windows: `ctrl+\` or `ctrl+alt+n` Mac:`command+\` or `command+alt+n` )并且提供了一个服务的树形可视化显示窗口。 如下图所示。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c26ea05ad472488fbf9eb21627964bee~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://oss.javaguide.cn/github/javaguide/tools/idea/c26ea05ad472488fbf9eb21627964bee~tplv-k3u1fbpfcp-zoom-1.png)
 
 #### 作为 HTTP 请求工具
 
