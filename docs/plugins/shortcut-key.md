@@ -1,5 +1,5 @@
 ---
-title: IDEA 快捷键相关插件
+title: Key Promoter X 和 Presentation Assistant：快捷键提示和展示
 category: IDEA 指南
 tag:
   - IDEA

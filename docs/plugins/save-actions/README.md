@@ -16,7 +16,7 @@ tag:
 
 这个插件是支持可配置的，我的配置如下:
 
-![save-actions](./assets/save-actions.png)
+![save-actions](https://oss.javaguide.cn/idea/plugins/save-actions.png)
 
 实际使用效果如下:
 

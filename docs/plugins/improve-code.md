@@ -1,5 +1,5 @@
 ---
-title: IDEA 代码优化插件推荐
+title: IDEA 代码优化必备插件总结
 category: IDEA 指南
 tag:
   - IDEA

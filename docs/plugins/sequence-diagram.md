@@ -1,5 +1,5 @@
 ---
-title: SequenceDiagram: 一键可以生成时序图
+title: SequenceDiagram:一键可以生成时序图
 category: IDEA 指南
 tag:
   - IDEA

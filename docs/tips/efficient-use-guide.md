@@ -7,6 +7,8 @@ tag:
   - 高效使用
 ---
 
+> 文中使用的 IDEA 版本是 IntelliJ IDEA 2021.2，其他版本也都是类似的。
+
 大家好，我是 Guide!
 
 昨晚刷到一篇知乎 370 多点赞的 IDEA 高效使用教程，带着好奇心，点击去一看，好家伙，又是盗用别人原创为自己引流的恶心行为。
@@ -15,14 +17,7 @@ tag:
 
 于是，我利用昨天晚上和早起的这会时间总结了这篇 **IDEA 高效使用教程** 。希望对大家有帮助！
 
-本文分为下面 4 部分内容:
-
-1. IDEA 高效设置指南
-2. 必备的一些插件推荐
-3. 主题优化
-4. IDEA 源码阅读技巧
-
-## 01 高效设置
+## 高效设置
 
 我们先来讲讲有哪些设置调整之后 IDEA 会更好用。先说明一点: **这里只是根据我个人喜好和习惯的建议，IDEA 的默认配置已经很好用了，具体要不要修改还是要看个人喜好和习惯了。**
 
@@ -98,9 +93,9 @@ IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不
 
 ![](https://oss.javaguide.cn/github/awesome-idea-tutorial/8a33b15770b464d9673063f00da8b6ca.png)
 
-## 02 必备插件
+## 必备插件
 
-好用的插件太多了，我这里只推荐 6 个我最常用的 IDEA 插件。更多插件推荐可以看我写的[《IDEA 专题》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2OTA0Njk0OA==&action=getalbum&album_id=1319419426898329600&scene=173&from_msgid=2247505133&from_itemidx=1&count=3&nolastread=1#wechat_redirect)。
+好用的插件太多了，我这里只推荐 6 个我最常用的 IDEA 插件。更多插件推荐可以看 [IDEA 必备插件专题](https://idea.javaguide.cn/plugins/)。
 
 ### jclasslib: 字节码查看神器
 
@@ -167,15 +162,13 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 3. 执行一些 quick fix
 4. ......
 
-### Rainbow Brackets: 彩虹括号
+这个插件是支持可配置的，我的配置如下:
 
-使用各种鲜明的颜色来展示你的括号，效果图如下。可以看出代码层级变得更加清晰了，可以说非常实用友好了！
+![save-actions](https://oss.javaguide.cn/idea/plugins/save-actions.png)
 
-![彩虹括号](./assets/rainbow-brackets.png)
+## 主题优化
 
-## 03 主题优化
-
-在[这几款 IDEA 主题也太好看了吧！！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247495661&idx=1&sn=3e0b33b4dc41985344c8aafcccc6bb13&chksm=cea1a026f9d62930b88711da89145080ca653f692bd8b42fed8c2cc1e8381abf76f797813fde&scene=178&cur_album_id=1319419426898329600#rd)这篇文章中，我精选了几个比较适合 Java 编码的 IDEA 主题供小伙伴们选择（我自己用的是 One Dark theme 这款）。
+在[这几款 IDEA 主题也太好看了吧！！](../plugins/themes.md)这篇文章中，我精选了几个比较适合 Java 编码的 IDEA 主题供小伙伴们选择（我自己用的是 One Dark theme 这款）。
 
 ![One Dark theme ](https://oss.javaguide.cn/github/awesome-idea-tutorial/4577a98272094d1d96f092e50d3d6d5e.png)
 
@@ -183,10 +176,62 @@ Tabnine 这个插件用于智能代码补全，它基于数百万 Java 程序，
 
 萝卜白菜各有所爱吧！保持一个包容的心态不是很难吧？你可以不装任何插件，但不要认为别人装插件就是多余，IDEA 的插件就是 IDEA 的一大灵魂所在，这点事无法否认的事实。
 
-## 04 IDEA 源码阅读技巧
+## 必备技巧
 
-在 [真香！用 IDEA 神器看源码，效率真高！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247505133&idx=1&sn=5f722cb29c655203b27cb38684503390&chksm=cea19b26f9d61230d87df97c8efd892ff6e3f7be77e6ec104c8f823a9a0c7dc7232f03b8351b&scene=178&cur_album_id=1319419426898329600#rd) 这篇文章中，我介绍了自己平时看源码的时候常用的快捷键/小技巧！非常好用！
+### 源码阅读
+
+在 [真香！用 IDEA 神器看源码，效率真高！](./source-code-reading-skills.md) 这篇文章中，我介绍了自己平时看源码的时候常用的快捷键/小技巧！非常好用！
 
 ![IDEA源码阅读技巧](https://oss.javaguide.cn/github/awesome-idea-tutorial/8a9024040e8c431796aa5427efcf35e5.png)
 
 掌握这些快捷键/小技巧，使用 IDEA 看源码的效率提升一个等级！
+
+### 快速创建包/文件夹
+
+Java中的包是一种组织类和接口的机制，用于将相关的类和接口组织在一起。日常开发时，我们想要新建 Java 类时，考虑到项目的包目录划分可能需要新建一个包。
+
+在 IDEA 中创建 Java 类时，是可以直接顺带创建包目录的，具体操作如下。
+
+在创建 Java 类时，直接写出包目录名称通过 `.` 拼接即可，如下图新建 Java 类时填上 `com.example.helloworld`，
+
+![创建新包](https://oss.javaguide.cn/idea/plugins/idea-create-new-package.png)
+
+快速创建文件夹的方式跟快速创建包目录差不多，只不过将 `.` 拼接改为 `/` 即可，如下图新建文件时填上 `folder/new-folder`，
+
+![创建新目录](https://oss.javaguide.cn/idea/plugins/idea-create-new-dir.png)
+
+### 快速复制类代码生成 Java 类
+
+对于完整的类代码，我们直接复制粘贴到包下即可生成对应的 Java 类，不需要再手动创建对应的类。
+
+假如我们要把下面的类复制到项目里的话：
+
+```java
+public class MyClass {
+    int aInteger;
+    double bDouble;
+
+    public MyClass(int myAIntegerParam, double myBDoubleParam) {
+        aInteger = myAIntegerParam;
+        bDouble = myBDoubleParam;
+    }
+}
+```
+
+直接复制然后再对应包下粘贴即可：
+
+![](https://oss.javaguide.cn/idea/tips/quickly-copy-class-code-to-generate-java-class.png)
+
+### 多实例启动
+
+日常开发过程中，我们可能需要用到多实例启动，也就是在本地同时启动多个同一服务。
+
+Run=> Edit Configurations=> 选中项目=> 选中“Allow parallel run”。
+
+![idea-allow-parallel-run](https://oss.javaguide.cn/idea/tips/idea-allow-parallel-run.jpg)
+
+这是2022之前版本的方法，2022及之后的版本方式有所改变。
+
+Run=> Edit Configurations=> 选中项目=> “Build and run”栏=> Modify Options=> 选中“Allow multiple instances”
+
+![](../../../../../Downloads/xnip截图/idea-allow-multiple-instances.png)

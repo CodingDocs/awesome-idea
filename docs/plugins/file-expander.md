@@ -1,5 +1,5 @@
 ---
-title: File Expander: 一键可以生成时序图
+title: File Expander:一键可以生成时序图
 category: IDEA 指南
 tag:
   - IDEA

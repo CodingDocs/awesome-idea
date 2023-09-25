@@ -1,5 +1,5 @@
 ---
-title: IDEA 主题推荐
+title: IDEA 美观主题插件总结
 category: IDEA 指南
 tag:
   - IDEA
