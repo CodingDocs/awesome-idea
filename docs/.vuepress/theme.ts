@@ -34,6 +34,7 @@ export default hopeTheme({
     blog: true,
     mdEnhance: {
       gfm: true,
+      mathjax: false,
     },
     feed: {
       json: true,
