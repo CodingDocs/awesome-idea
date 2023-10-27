@@ -37,7 +37,7 @@ IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小
 - [Git Commit Template: 提交代码格式规范](./docs/plugins/git-commit-template/README.md)
 - [GsonFormat: JSON 转对象](./docs/plugins/gson-format/README.md)
 - [IDE Features Trainer: IDEA 交互式教程](./docs/plugins/idea-features-trainer/README.md)
-- [jclasslib: 一款 IDEA 字节码查看神器](./docs/plugins/jclasslib.md)
+- [jclasslib: 一款 IDEA 字节码查看神器](./docs/plugins/jclasslib/README.md)
 - [RestfulToolkit: RESTful Web 服务辅助开发工具](./docs/plugins/rest/README.md)
 - [SequenceDiagram: 一键可以生成时序图](./docs/plugins/sequence-diagram.md)
 - [File Expander：查看压缩包内容](./docs/plugins/file-expander.md)
