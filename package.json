@@ -4,7 +4,7 @@
   "repository": "git@github.com:CodingDocs/awesome-idea.git",
   "author": "Guide",
   "license": "MIT",
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "pnpm@8.11.0",
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
@@ -12,11 +12,11 @@
     "docs:update": "pnpm dlx vp-date"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.67",
-    "nodejs-jieba": "0.0.2",
-    "vue": "^3.3.7",
-    "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-search-pro": "2.0.0-beta.241",
-    "vuepress-theme-hope": "2.0.0-beta.241"
+    "@vuepress/client": "2.0.0-rc.0",
+    "nodejs-jieba": "0.1.2",
+    "vue": "^3.3.10",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-plugin-search-pro": "2.0.0-rc.2",
+    "vuepress-theme-hope": "2.0.0-rc.2"
   }
 }
