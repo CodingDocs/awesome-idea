@@ -32,12 +32,13 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
+    feed: {
+      json: true,
+    },
     mdEnhance: {
       gfm: true,
       mathjax: false,
     },
-    feed: {
-      json: true,
-    },
+    searchPro: true,
   },
 });
