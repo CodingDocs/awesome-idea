@@ -234,4 +234,5 @@ Run=> Edit Configurations=> 选中项目=> 选中“Allow parallel run”。
 
 Run=> Edit Configurations=> 选中项目=> “Build and run”栏=> Modify Options=> 选中“Allow multiple instances”
 
-![](../../../../../Downloads/xnip截图/idea-allow-multiple-instances.png)
+![](https://oss.javaguide.cn/idea/tips/idea-allow-multiple-instances.png)
+

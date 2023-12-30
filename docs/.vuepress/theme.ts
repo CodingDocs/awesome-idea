@@ -5,12 +5,13 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   author: "Guide",
   logo: "/logo.svg",
+  favicon: "/favicon.ico",
   hostname: "https://codingdocs.github.io",
   repo: "CodingDocs/awesome-idea",
   docsDir: "docs",
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
   pure: true,
-
+  breadcrumb: false,
   navbar,
   sidebar,
 
