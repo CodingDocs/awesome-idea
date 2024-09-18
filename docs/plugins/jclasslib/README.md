@@ -24,9 +24,9 @@ Java 虚拟机（JVM）是运行 Java 字节码的虚拟机。JVM 有针对不�
 
 :::
 
-**Java 程序从源代码到运行一般有下面 3 步:**
+**Java 程序从源代码到运行的过程如下图所示**：
 
-![Java程序运行过程](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/Java%20%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B.png)
+![Java程序转变为机器代码的过程](https://oss.javaguide.cn/github/javaguide/java/basis/java-code-to-machine-code.png)
 
 ## 为什么要查看 Java 字节码？
 
