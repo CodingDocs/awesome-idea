@@ -22,7 +22,7 @@ export default sidebar({
     "gson-format/",
     "jclasslib/",
     "rest/",
-    "sequence-diagram/",
+    "sequence-diagram",
     "others",
   ],
 });
