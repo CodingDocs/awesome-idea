@@ -1,3 +1,4 @@
+import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
@@ -7,6 +8,8 @@ export default defineUserConfig({
 
   title: "IDEA 高效使用指南",
   lang: "zh-CN",
+
+  bundler: viteBundler(),
 
   theme,
 });

@@ -38,7 +38,6 @@ export default hopeTheme({
     },
     mdEnhance: {
       gfm: true,
-      mathjax: false,
     },
     searchPro: true,
   },
