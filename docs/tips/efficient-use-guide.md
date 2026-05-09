@@ -89,7 +89,7 @@ IDEA 自带的编码模板我们平时在编码的时候就会经常用到，不
 
 ### 显示某个文件的提交记录
 
-在界面左侧空白区域邮件，勾选上 _Annotate with Git Blame_ 即可显示对应文件详细代码提交记录，包括提交信息、提交人、变更文件等信息，非常强大！
+在界面左侧空白区域右键，勾选上 _Annotate with Git Blame_ 即可显示对应文件详细代码提交记录，包括提交信息、提交人、变更文件等信息，非常强大！
 
 ![](https://oss.javaguide.cn/github/awesome-idea-tutorial/8a33b15770b464d9673063f00da8b6ca.png)
 
